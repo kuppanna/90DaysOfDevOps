@@ -6,8 +6,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout code
-            - uses: actions/checkout@v4
+              uses: actions/checkout@v4
             - name: print messages
-            - run: echo "Hello from Github actions!"
+              run: echo "Hello from Github actions!"
 
       
