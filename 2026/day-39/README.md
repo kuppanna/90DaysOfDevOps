@@ -28,8 +28,11 @@ Write in your notes:
 ### Task 2: CI vs CD
 Research and write short definitions (2-3 lines each):
 1. **Continuous Integration** — what happens, how often, what it catches
+   . Continuous integration is the practices where developer frequently merge their code changes  into shared reposiory, often serveral times a day. Each changes automaticalu triggers bulid and auomated tests. This helps quckely catch error such as build failures, code conflicts or failing test early in development.
 2. **Continuous Delivery** — how it's different from CI, what "delivery" means
+   . Continous Delivery is practices of autmaticaly preparing and packing code changes so they are always ready to be released to producation , continuous Delivery ensures the applicatio can be deployed at any time. the final deployment to producation with manual approval
 3. **Continuous Deployment** — how it differs from Delivery, when teams use it
+   . Continuous Deployment automaticaly release every changes that passes all the test directly to producation without manaual approval  
 
 Write one real-world example for each.
 
