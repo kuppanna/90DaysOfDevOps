@@ -63,8 +63,11 @@ Include at least 3 stages. Hand-drawn and photographed is perfectly fine.
 3. Open one workflow YAML file
 4. Write in your notes:
    - What triggers it?
+      . Trigger is the events that start then pipeline  automaticaly.
    - How many jobs does it have?
+      . each step runs inside a job
    - What does it do? (best guess)
+      . organizes the pipeline into logical phases
 
 ---
 
