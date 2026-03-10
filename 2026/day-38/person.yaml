@@ -6,10 +6,11 @@ skills:
   - CI/CD
   - Containerization
   - Infrastructure as Code
+hobbies: [reading, learning-new-tools]
 experience: 13 years
 education:
   - degree: B.Tech in Computer Science
     institution: VTU University
-    year: 2010\
+    year: 2010
 certfications:
 - Certified Kubernetes Administrator

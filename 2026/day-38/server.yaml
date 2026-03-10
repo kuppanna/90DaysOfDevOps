@@ -1,0 +1,23 @@
+server:
+  name: app-server
+  ip: 192.168.1.10
+  port: 8080
+  operating_system: Ubuntu 20.04
+
+database:
+  host: db-server
+  name: app_db
+  credentials:
+    username: dbuser
+    password: dbpassword
+
+
+startup_scripts_literal: |
+  #!/bin/bash
+  echo "Starting service"
+  docker compose up -d
+  echo "Service started successfully"
+
+startup_scripts_folded: >
+  theis scrip initializes the application and start the required  container when the server boots.
+ 
